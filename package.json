@@ -1,0 +1,35 @@
+{
+  "family": "seedit",
+  "name": "image-uploader",
+  "version": "0.0.2",
+  "description": "image uploader",
+  "homepage": "https://github.com/airyland/seedit",
+  "author": "airyland",
+  "maintainers": [
+    "airyland"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/airyland/seedit.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [],
+  "licenses": "MIT",
+  "spm": {
+    "main": "src/uploader.js",
+    "output": [
+      "imageUploader.js",
+      "button.png",
+      "swfupload.swf"
+    ],
+    "dependencies": {
+      "jquery": "1.8.3",
+      "json": "0.0.2"
+    },
+    "devDependencies": {
+      "seajs": "2.2.1"
+    }
+  }
+}
