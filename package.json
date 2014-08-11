@@ -18,7 +18,7 @@
   "keywords": [],
   "licenses": "MIT",
   "spm": {
-    "main": "src/uploader.js",
+    "main": "index.js",
     "output": [
       "src/button.png",
       "src/swfupload.swf"
