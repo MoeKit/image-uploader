@@ -20,13 +20,13 @@
   "spm": {
     "main": "src/uploader.js",
     "output": [
-      "imageUploader.js",
-      "button.png",
-      "swfupload.swf"
+      "src/button.png",
+      "src/swfupload.swf"
     ],
     "dependencies": {
       "jquery": "1.8.3",
-      "json": "0.0.2"
+      "json": "0.0.2",
+      "swf-upload": "2.2.0"
     },
     "devDependencies": {
       "seajs": "2.2.1"
